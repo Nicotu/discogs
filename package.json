@@ -10,10 +10,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "@types/jest": "^29.5.14",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",
     "next": "15.1.7",
+    "next-auth": "^4.24.11",
+    "postcss-import": "^16.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.0.1",

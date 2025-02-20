@@ -1,0 +1,20 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.itemsList {
+  @apply mx-auto flex flex-col gap-10 w-[90%] max-w-[800px] mb-8;
+}
+
+.content {
+  @apply w-[90%] max-w-[800px];
+}
+
+.spinning-inifinite {
+  animation: spin 2s linear infinite;
+}
